@@ -1,0 +1,105 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-09-02T13:16:47Z",
+      "resolved": "github:NixOS/nixpkgs/aaff8c16d7fc04991cac6245bee1baa31f72b1e1?lastModified=1756819007&narHash=sha256-12V64nKG%2FO%2FguxSYnr5%2Fnq1EfqwJCdD2%2BcIGmhz3nrE%3D"
+    },
+    "typst@latest": {
+      "last_modified": "2025-07-28T17:09:23Z",
+      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#typst",
+      "source": "devbox-search",
+      "version": "0.13.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wai47r72hbklvsf4hg10p9brz1yrrvdq-typst-0.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wai47r72hbklvsf4hg10p9brz1yrrvdq-typst-0.13.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lnbhkrc2lv9m2g6500ci3f539lqk5qgk-typst-0.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lnbhkrc2lv9m2g6500ci3f539lqk5qgk-typst-0.13.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xia7fjjxprl41mr5xr4c2f3vkp6da6qb-typst-0.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xia7fjjxprl41mr5xr4c2f3vkp6da6qb-typst-0.13.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9qswfipvxyavgbg8994iq8xd0kdmlxa8-typst-0.13.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9qswfipvxyavgbg8994iq8xd0kdmlxa8-typst-0.13.1"
+        }
+      }
+    },
+    "zathura@latest": {
+      "last_modified": "2025-07-28T17:09:23Z",
+      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#zathura",
+      "source": "devbox-search",
+      "version": "0.5.12",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r6008hfymbnhj8cn9inwn2p67kna1vjl-zathura-with-plugins-0.5.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r6008hfymbnhj8cn9inwn2p67kna1vjl-zathura-with-plugins-0.5.12"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/93rjdpz8qr0r1ybiwz9rc24hvmswla4p-zathura-with-plugins-0.5.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/93rjdpz8qr0r1ybiwz9rc24hvmswla4p-zathura-with-plugins-0.5.12"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d8vfmz11rbfpn27ssn42i192xmnzq9az-zathura-with-plugins-0.5.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d8vfmz11rbfpn27ssn42i192xmnzq9az-zathura-with-plugins-0.5.12"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zjxmlgmx75431g0kszni12ds99872zdp-zathura-with-plugins-0.5.12",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zjxmlgmx75431g0kszni12ds99872zdp-zathura-with-plugins-0.5.12"
+        }
+      }
+    }
+  }
+}
