@@ -3,7 +3,6 @@
 )
 #show heading.where(level: 1): it => [
   #set text(
-    spacing: 0pt,
     size: 11pt,
     weight: "bold",
   )
@@ -48,12 +47,12 @@ carterjandrew.github.io #h(1fr)
   #strong[#{gpa + "/4.0"}] \
 ]
 
-= TECHNICAL SKILLS
+= TECHNICAL  SKILLS
 Neural Net Architecture #h(1fr)
 Python, R, Java, C, C++ #h(1fr)
 Javascript, PHP, Typescrip, Go #h(1fr)
 Tensorflow, Pytorch\
-AWS, GCloud, SAM #h(1fr)
+AWS, GCloud, GraphQL #h(1fr)
 React, Laravel, Vue #h(1fr)
 OpenGL3, ShaderLab #h(1fr)
 Arch Linux, NixOS \
