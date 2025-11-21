@@ -1,5 +1,5 @@
 #set page(
-  margin: (25pt),
+  margin: (15pt),
 )
 #show heading.where(level: 1): it => [
   #set text(
