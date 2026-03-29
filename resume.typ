@@ -50,7 +50,7 @@ carterjandrew.github.io #h(1fr)
 = TECHNICAL  SKILLS
 Neural Net Architecture #h(1fr)
 Python, R, Java, C, C++ #h(1fr)
-Javascript, PHP, Typescrip, Go #h(1fr)
+Javascript, PHP, Typescript, Go #h(1fr)
 Tensorflow, Pytorch\
 AWS, GCloud, GraphQL #h(1fr)
 React, Laravel, Vue #h(1fr)

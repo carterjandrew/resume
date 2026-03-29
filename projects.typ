@@ -1,7 +1,7 @@
 #let naive_bayes_for_ultrasound_distinction = (
   name: "Naive Bayes for Ultrasound Distinction",
   date: "Aug 2023",
-  event: "Intro to Statistics, CU Boulder",
+  event: [Intro to Statistics, *CU Boulder*],
   skills: "Python, MatPlotLib",
   points: (
     [Used naive bayes as lightweight model for distinguishing ultrasound scan locations with *_96% accuracy_*],
@@ -44,7 +44,7 @@
 #let buff_bikes = (
   name: "Buff Bikes",
   date: "Jan 2021-Mar 2021",
-  event: "Software Development Tools & Methods, CU Boulder",
+  event: [Software Development Tools & Methods, *CU Boulder*],
   skills: "HTML, CSS, Javascript, SQL, C",
   points: (
     [Coordinated with team of 5 to design a web app to notify users when their bike moved],
@@ -72,6 +72,17 @@
   )
 )
 
+#let booklore_nix = (
+  name: "Booklore Service for Nix",
+  date: "Oct 2025",
+  event: "Personal",
+  skills: "Nix, Gradle, NodeJS",
+  points: (
+    [Published and maintaining Nix service module for the Booklore application: a OPDS compatable library host],
+    [Built workflow for running integration testing on a virtual machine],
+  )
+)
+
 #let projects = (
   naive_bayes_for_ultrasound_distinction,
   filler_frames,
@@ -80,4 +91,5 @@
   buff_bikes,
   class_search_plus_plus,
   k_tile,
+  booklore_nix,
 )

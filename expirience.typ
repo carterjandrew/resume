@@ -13,7 +13,7 @@
 #let quadrantHealth = (
   company: "Quadrant Health, ELLA",
   role: "Lead software developer",
-  period: "Aug 2024-Present",
+  period: "Aug 2024-Apr 2025",
   skills: "Python, Pandas, Supabase, React Native, Expo, SQL",
   points: (
     [Conducted extensive surveys and used feedback to iteratively design a complete application wireframe],

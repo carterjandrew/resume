@@ -41,14 +41,6 @@ carterjandrew.github.io #h(1fr)
   #strong[#{gpa + "/4.0"}] \
 ]
 
-= HONORS AND AWARDS
-#import "awards.typ": awards
-#for (name, date) in awards [
-  #emph[#name]
-  #h(1fr)
-  #strong[#date] \
-]
-
 = TECHNICAL  SKILLS
 #[
   #set par(spacing: 1em)
@@ -67,11 +59,13 @@ carterjandrew.github.io #h(1fr)
 #import "expirience.typ": expirience
 
 #for (company, skills, role, period, points) in expirience [
-  #strong[#company] #h(1fr) #strong[#period] \
-  #underline[#emph[#role]] #h(1fr) #skills
-  #set list(marker: [--])
-  #for point in points [
-    - #point
+  #block(breakable: false)[
+    #strong[#company] #h(1fr) #strong[#period] \
+    #underline[#emph[#role]] #h(1fr) #skills
+    #set list(marker: [--])
+    #for point in points [
+      - #point
+    ]
   ]
 ]
 
@@ -88,18 +82,20 @@ carterjandrew.github.io #h(1fr)
 ]
 
 = RELEVANT PROJECTS
-#import "projects.typ": naive_bayes_for_ultrasound_distinction, filler_frames, fake_news_classifier, where_to_study, buff_bikes, class_search_plus_plus, k_tile
+#import "projects.typ": naive_bayes_for_ultrasound_distinction, filler_frames, fake_news_classifier, where_to_study, buff_bikes, class_search_plus_plus, k_tile, booklore_nix
 
-#for (name, date, event, skills, points) in (naive_bayes_for_ultrasound_distinction, filler_frames, fake_news_classifier, where_to_study, buff_bikes, class_search_plus_plus, k_tile) [
-  #strong[#name] #h(1fr) #strong[#date] \
-  #underline[#emph[#event]] #h(1fr) #skills
-  #set list(marker: [--])
-  #for point in points [
-    - #point
+#for (name, date, event, skills, points) in (naive_bayes_for_ultrasound_distinction, fake_news_classifier, where_to_study, buff_bikes, booklore_nix ) [
+  #block(breakable: false)[
+    #strong[#name] #h(1fr) #strong[#date] \
+    #underline[#emph[#event]] #h(1fr) #skills
+    #set list(marker: [--])
+    #for point in points [
+      - #point
+    ]
   ]
 ]
 
-= VOULENTEER EXPIRIENCE
+= VOULENTEER ROLES
 #import "voulenteer.typ": voulenteers 
 
 #for (company, role, period, points) in voulenteers [
@@ -108,6 +104,14 @@ carterjandrew.github.io #h(1fr)
   #for point in points [
     - #point
   ]
+]
+
+= HONORS AND AWARDS
+#import "awards.typ": awards
+#for (name, date) in awards [
+  #emph[#name]
+  #h(1fr)
+  #strong[#date] \
 ]
 
 

@@ -14,6 +14,14 @@
     [Helped clean kennels, feed animals, do inventory, administer medications, and oversee visitations for adoption center and intensive care unit],
   )
 )
+#let nyagiVoulenteer = (
+  company: "Nyagi Project",
+  role: "IT Support",
+  period: "8 Days",
+  points: (
+    [*Went into the field in Somaliland* to provide support for ultrasound and educational software],
+  )
+)
 #let voulenteers = (
-  bikeKitchen, arizonaHumaneSociety
+  nyagiVoulenteer, bikeKitchen, arizonaHumaneSociety,
 )
