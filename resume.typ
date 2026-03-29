@@ -17,26 +17,19 @@
   )[Carter Andrew]
 ]
 
+#v(-15pt)
+#align(center)[
+  *US/UK Dual Citizen*
+]
+
 carter.andrew\@colorado.edu #h(1fr)
 1(970)708-1626 #h(1fr)
 carterjandrew.github.io #h(1fr)
 3015 Ash Ave, Boulder CO
 
+#v(-5pt)
 = EDUCATION
-#let degrees = (
-  (
-    name: "Accelerated Masters of Science, Data Science and Machine Learning",
-    gpa: "3.7"
-  ),
-  (
-    name: "Bachelor of Science, Computer Science",
-    gpa: "3.6"
-  ),
-  (
-    name: "Engineering Leadership Certificate",
-    gpa: "3.9"
-  )
-)
+#import "degrees.typ": degrees
 #strong[#underline[University of Colorado Boulder]
 #h(1fr) Aug 2020-Apr 2025]
 \
@@ -49,16 +42,16 @@ carterjandrew.github.io #h(1fr)
 
 = TECHNICAL  SKILLS
 Neural Net Architecture #h(1fr)
-Python, R, Java, C, C++ #h(1fr)
-Javascript, PHP, Typescript, Go #h(1fr)
-Tensorflow, Pytorch\
-AWS, GCloud, GraphQL #h(1fr)
-React, Laravel, Vue #h(1fr)
-OpenGL3, ShaderLab #h(1fr)
+Python, R, Go, Javascript #h(1fr)
+AWS, Google Cloud #h(1fr)
 Arch Linux, NixOS \
 
 = PROFESSIONAL EXPIRIENCE
-#import "expirience.typ": expirience
+#import "expirience.typ": onxMaps, quadrantHealth, sevenD, nyagi, conservationMetrics, naturaBolivia
+
+#let expirience = (
+  naturaBolivia, onxMaps, quadrantHealth, nyagi, conservationMetrics
+)
 
 #for (company, role, period, points) in expirience [
   #strong[#underline[#company] | #emph[#role] #h(1fr) #period]

@@ -10,6 +10,7 @@
     [Built frontend demo for backend service incorporating new actionable error handling],
   )
 )
+
 #let quadrantHealth = (
   company: "Quadrant Health, ELLA",
   role: "Lead software developer",
@@ -21,6 +22,7 @@
     [*_Built tool allowing users to input 2600 types of medical pannels_*],
   )
 )
+
 #let sevenD = (
   company: "7D Imaging",
   role: "Full Stack Software Developer",
@@ -33,6 +35,7 @@
     [Iteratively designed application through wireframe proposals and surveys],
   )
 )
+
 #let nyagi = (
   company: "The Nyagi Project",
   role: "Technical Lead",
@@ -44,6 +47,7 @@
     [*_Received 1st place for Excellence in Design_* among all CU Boulder computer science capstone projects],
   )
 )
+
 #let conservationMetrics = (
   company: "Conservation Metrics",
   role: "Software Development Intern",
@@ -55,6 +59,19 @@
     [Created multithreaded cli tool for extracting data from specialized audio files *_scaling to 50,000 files without issue_*],
   )
 )
+
+#let naturaBolivia = (
+  company: "Fundación Natura Bolivia",
+  role: "Lead BioAcoustics Developer",
+  period: "Feb 2026-Sep 2026",
+  skills: "Python, Javascript, Team Management, Survey Prodedure",
+  points: (
+    [*_Piloted Naturas end to end process for turning audio surveys into meaningful data about ecology_*],
+    [Collaborated with scientific teams across two companies to ensure a versitile and future proof survey process],
+    [Built a *_active learning pipeline_* to allow staff to rapidly search for and develop datasets for rare endemic species],
+  )
+)
+
 #let expirience = (
-  onxMaps, quadrantHealth, sevenD, nyagi, conservationMetrics
+  naturaBolivia, onxMaps, quadrantHealth, sevenD, nyagi, conservationMetrics
 )

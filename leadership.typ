@@ -16,5 +16,5 @@
   )
 )
 #let leaderships = (
-  compSciClub, fashionClub
+  fashionClub, compSciClub
 )

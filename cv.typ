@@ -41,17 +41,12 @@ carterjandrew.github.io #h(1fr)
   #strong[#{gpa + "/4.0"}] \
 ]
 
-= TECHNICAL  SKILLS
+= STRONG TECHNICAL SKILLS
 #[
   #set par(spacing: 1em)
   Neural Net Architecture #h(1fr)
-  Python, R, Java, C, C++ #h(1fr)
-  Javascript, PHP, Typescrip, Go #h(1fr)
-  Tensorflow, Pytorch\
-  #v(-2pt)
-  AWS, GCloud, GraphQL #h(1fr)
-  React, Laravel, Vue #h(1fr)
-  OpenGL3, ShaderLab #h(1fr)
+  Python, R, Go, Javascript #h(1fr)
+  AWS, Google Cloud #h(1fr)
   Arch Linux, NixOS \
 ]
 
