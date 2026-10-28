@@ -1,3 +1,14 @@
+#let sparrow = (
+  name: "Acoustic Source Localization for Microsoft Sparrow",
+  date: "Jun 2026",
+  event: [Personal],
+  skills: "Python",
+  points: (
+    [Modifying Sparrow to enable data collection for acoustic triangulation saving developers implementation time],
+    [Currently working with the Sparrow team to design data collection and structure standards],
+  )
+)
+
 #let naive_bayes_for_ultrasound_distinction = (
   name: "Naive Bayes for Ultrasound Distinction",
   date: "Aug 2023",
@@ -48,7 +59,7 @@
   skills: "HTML, CSS, Javascript, SQL, C",
   points: (
     [Coordinated with team of 5 to design a web app to notify users when their bike moved],
-    [Collaborated on Arduino design and programming to allow gps location and communication with backend],
+    [Collaborated on Arduino design and programming to allow GPS location and communication with backend],
   )
 )
 
@@ -78,12 +89,13 @@
   event: "Personal",
   skills: "Nix, Gradle, NodeJS",
   points: (
-    [Published and maintaining Nix service module for the Booklore application: a OPDS compatable library host],
+    [Published and maintaining Nix service module for the Booklore application: a OPDS compatible library host],
     [Built workflow for running integration testing on a virtual machine],
   )
 )
 
 #let projects = (
+  sparrow,
   naive_bayes_for_ultrasound_distinction,
   filler_frames,
   fake_news_classifier,
@@ -93,3 +105,4 @@
   k_tile,
   booklore_nix,
 )
+

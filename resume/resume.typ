@@ -22,10 +22,9 @@
   *US/UK Dual Citizen*
 ]
 
-carter.andrew\@colorado.edu #h(1fr)
+carter\@cardi.dev #h(1fr)
 1(970)708-1626 #h(1fr)
-carterjandrew.github.io #h(1fr)
-3015 Ash Ave, Boulder CO
+https://cardi.dev
 
 #v(-5pt)
 = EDUCATION
@@ -42,15 +41,15 @@ carterjandrew.github.io #h(1fr)
 
 = TECHNICAL  SKILLS
 Neural Net Architecture #h(1fr)
-Python, R, Go, Javascript #h(1fr)
+Python, R, Go, JavaScript #h(1fr)
 AWS, Google Cloud #h(1fr)
 Arch Linux, NixOS \
 
-= PROFESSIONAL EXPIRIENCE
+= PROFESSIONAL EXPERIENCE
 #import "expirience.typ": onxMaps, quadrantHealth, sevenD, nyagi, conservationMetrics, naturaBolivia
 
 #let expirience = (
-  naturaBolivia, onxMaps, quadrantHealth, nyagi, conservationMetrics
+  naturaBolivia, onxMaps, quadrantHealth, nyagi, sevenD, conservationMetrics
 )
 
 #for (company, role, period, points) in expirience [
@@ -61,18 +60,18 @@ Arch Linux, NixOS \
   ]
 ]
 
-= LEADERSHIP EXPIRIENCE
-#import "leadership.typ": leaderships
+// = LEADERSHIP EXPIRIENCE
+// #import "leadership.typ": leaderships
+// 
+// #for (company, role, period, points) in leaderships [
+//   #strong[#underline[#company] | #emph[#role] #h(1fr) #period]
+//   #set list(marker: [--])
+//   #for point in points [
+//     - #point
+//   ]
+// ]
 
-#for (company, role, period, points) in leaderships [
-  #strong[#underline[#company] | #emph[#role] #h(1fr) #period]
-  #set list(marker: [--])
-  #for point in points [
-    - #point
-  ]
-]
-
-= VOULENTEER EXPIRIENCE
+= VOLUNTEER EXPERIENCE
 #import "voulenteer.typ": voulenteers 
 
 #for (company, role, period, points) in voulenteers [
@@ -82,3 +81,4 @@ Arch Linux, NixOS \
     - #point
   ]
 ]
+

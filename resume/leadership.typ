@@ -18,3 +18,4 @@
 #let leaderships = (
   fashionClub, compSciClub
 )
+

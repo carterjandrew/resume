@@ -21,3 +21,4 @@
 #let awards = (
   capstone, graduation, scholarship, dean
 )
+
